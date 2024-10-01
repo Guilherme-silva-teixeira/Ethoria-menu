@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+}
+
+#menu
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    cursor: default;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 23px;
+    font-size: 47px;
+    text-align: center;
+}
+
+button
+{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid #fff;
+    background: #000;
+    color: #fff;
+    height: 47px;
+    width: 173px;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+button:active
+{
+    cursor: pointer;
+    transform: translateY(3px);
+}
+
+#buttons
+{
+    padding: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#buttons button
+{
+    height: 27px;
+    width: 27px;
+}
+
+#desc
+{
+    color: #fff;
+}
+
+#textsU
+{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut
+{
+    from
+    {
+        opacity: 1;
+    }
+    to
+    {
+        opacity: 0;
+    }
+}
+
+#menu
+{
+    animation: fadeIn 3s;
+}
+
+.fade1
+{
+    animation: fadeIn 1.3s;
+}
